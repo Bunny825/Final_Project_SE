@@ -1,0 +1,8 @@
+--only-binary=:all:
+streamlit
+numpy
+scikit-learn
+streamlit-option-menu
+pip
+pillow
+tensorflow

@@ -6,3 +6,4 @@ streamlit-option-menu
 pip
 pillow
 tensorflow
+xgboost

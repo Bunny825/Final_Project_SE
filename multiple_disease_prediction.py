@@ -21,8 +21,8 @@ diabetes_scaler=pickle.load(open("diabetes_scaler.sav","rb"))
 cardio_scaler=pickle.load(open("cardio_scaler.sav","rb"))
 
 with st.sidebar:
-	selected=option_menu("Multiple Disease Prediction",
-											["Heart Disease Prediction","Diabetes Prediction","Parkinson Prediction","Cardio Diesase Prediction","Medical expenses regression"],
+	selected=option_menu("ILAB",
+											["Heart Disease Prediction","Diabetes Prediction","Parkinson Prediction","Cardio Diesase Prediction","Medical expenses"],
 											icons=["heart","activity","person","balloon-heart-fill","cash"],
 											default_index=0)
 											
